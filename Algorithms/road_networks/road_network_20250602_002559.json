@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "n0": [
+      0,
+      0
+    ],
+    "n1": [
+      5,
+      20
+    ],
+    "n2": [
+      30,
+      25
+    ],
+    "n3": [
+      40,
+      18
+    ],
+    "n4": [
+      25,
+      0
+    ]
+  },
+  "edges": [
+    {
+      "from": "n0",
+      "to": "n1",
+      "length": 25,
+      "direction": "uni"
+    },
+    {
+      "from": "n1",
+      "to": "n2",
+      "length": 30,
+      "direction": "bi"
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "length": 17,
+      "direction": "bi"
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "length": 33,
+      "direction": "bi"
+    },
+    {
+      "from": "n4",
+      "to": "n0",
+      "length": 25,
+      "direction": "uni"
+    }
+  ]
+}
